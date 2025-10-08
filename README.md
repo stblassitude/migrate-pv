@@ -8,6 +8,8 @@ A Go-based tool for migrating Kubernetes PersistentVolumes between storage class
 
 In particular, there is no real error handling, and no recovery mechanism. Make sure you have proper backups before running this tool.
 
+The code has been created with the help of a GenAI coding assistant, and is likely wrong.
+
 ## How It Works
 
 The `migratePersistentVolume` function performs a safe, automated migration of a PersistentVolume to a new storage class by following these steps:
